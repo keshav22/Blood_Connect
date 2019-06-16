@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/tools">
+    <string-array name="roomType" >
+        <item android:state_activated="true" android:color="#fff">O+</item>
+        <item android:state_activated="true" android:color="#fff">O-</item>
+        <item android:state_activated="true" android:color="#fff">A+</item>
+        <item android:state_activated="true" android:color="#fff">A-</item>
+        <item android:state_activated="true" android:color="#fff">AB+</item>
+        <item android:state_activated="true" android:color="#fff">AB-</item>
+        <item android:state_activated="true" android:color="#fff">B+</item>
+        <item android:state_activated="true" android:color="#fff">B-</item>
+    </string-array>
+</resources>

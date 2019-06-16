@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout"
+    android:background="@mipmap/backplain"
+  >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:text="1.* Select the Blood group you are requesting for ?"
+            android:textColor="#fff"
+            android:id="@+id/ques1"
+            android:textSize="20dp"
+            android:layout_marginTop="60dp"
+            />
+
+        <Spinner
+            android:id="@+id/bloodtype"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ques1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@mipmap/button"
+            android:ems="10"
+            android:gravity="center"
+            android:popupBackground="#e1283f"
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textCursorDrawable="@drawable/color_cursor"
+            android:textSize="13dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Type a request message.(optional)"
+            android:textColor="#fff"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:id="@+id/ques2"
+            android:layout_below="@+id/bloodtype"
+            android:textSize="20dp"
+            />
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/ques2"
+            android:gravity="start"
+            android:textColorHint="#fff"
+            android:textSize="13dp"
+            app:hintTextAppearance="@style/HintText">
+                <EditText
+                    android:id="@+id/Message"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:background="@mipmap/button"
+                    android:backgroundTintMode="multiply"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:hint="Message"
+                    android:imeOptions="actionNext"
+                    android:inputType="text"
+                    android:textColor="#fff"
+                    android:textColorHint="#fff"
+                    android:textCursorDrawable="@drawable/color_cursor"
+                    android:textSize="13dp" />
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:layout_below="@+id/message"
+            android:layout_width="290dp"
+            android:layout_marginTop="20dp"
+            android:layout_height="40dp"
+            android:text="Upload Request \u0026 send notification"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/btn"
+            android:textColor="#e1283f"
+            android:background="@mipmap/signbutton1"/>
+
+</RelativeLayout>

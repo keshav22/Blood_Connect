@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">firebasefcm</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="username"><font size="10">USERNAME/EMAIL</font></string>
+    <string name="title_activity_main3">Main3Activity</string>
+    <string name="title_activity_signup">signup</string>
+    <string name="your_string"><u>forget password?</u></string>
+    <string name="Open">Open</string>
+    <string name="Close">Close</string>
+    <string name="title_activity_generaterequest">generaterequest</string>
+</resources>

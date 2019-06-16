@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "653574283344",
+    "firebase_url": "https://fir-75aaa.firebaseio.com",
+    "project_id": "fir-75aaa",
+    "storage_bucket": "fir-75aaa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:653574283344:android:708a6f1b8c363d57",
+        "android_client_info": {
+          "package_name": "blood.connect.kesha.firebasefcm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "653574283344-3hojo7e28uiuf910nntgg9rlbs223oap.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "653574283344-3hojo7e28uiuf910nntgg9rlbs223oap.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhNh43o-Rpj7GF0crNlhBTsOAKf-gtuhI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

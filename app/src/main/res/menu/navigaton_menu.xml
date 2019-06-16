@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/requests"
+        android:title="Generate a request"
+        android:icon="@mipmap/unnamed"></item>
+
+            <item android:id="@+id/Signup"
+                android:title="Sign up"
+                android:icon="@mipmap/singup"></item>
+            <item android:id="@+id/Signout"
+                android:title="Logout"
+                android:icon="@mipmap/signout"></item>
+</menu>

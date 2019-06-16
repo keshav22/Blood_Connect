@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/backplain"
+    tools:context="blood.connect.kesha.firebasefcm.Main3Activity">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:src="@mipmap/bccilogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:id="@+id/logo"/>
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:id="@+id/main"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/logo"
+        >
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="SIGN IN"
+        android:background="@mipmap/signbutton1"
+        android:textColor="#e1283f"
+        android:id="@+id/signinbtn"/>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="SIGNUP"
+        android:background="@mipmap/signbutton1"
+        android:textColor="#e1283f"
+        android:id="@+id/signupbtn"/>
+</LinearLayout>
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/main"
+        android:background="@mipmap/signbutton1"
+        android:layout_centerHorizontal="true"
+        android:text="GUEST LOGIN"
+        android:id="@+id/guestlogin"
+        android:textColor="#e1283f"/>
+</RelativeLayout>

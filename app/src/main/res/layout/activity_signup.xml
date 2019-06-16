@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/backplain"
+    android:id="@+id/scr1"
+   >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Click me to select profile pic."
+            android:textColor="#fff"
+            android:layout_below="@+id/img"
+            android:layout_centerHorizontal="true"/>
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:src="@mipmap/uploadimage1" />
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/name1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:gravity="start"
+            android:textColorHint="#fff"
+            android:textSize="13dp"
+            app:hintTextAppearance="@style/HintText">
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/password"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:background="@mipmap/button"
+                android:backgroundTintMode="multiply"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Full name"
+                android:imeOptions="actionNext"
+                android:inputType="text"
+                android:textColor="#fff"
+                android:textColorHint="#fff"
+                android:textCursorDrawable="@drawable/color_cursor"
+                android:textSize="13dp" />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <Spinner
+            android:id="@+id/bloodtype"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@mipmap/button"
+            android:ems="10"
+            android:gravity="center"
+            android:popupBackground="#e1283f"
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textCursorDrawable="@drawable/color_cursor"
+            android:textSize="13dp" />
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/email1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bloodtype"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:gravity="start"
+            android:textColorHint="#fff"
+            android:textSize="13dp"
+            app:hintTextAppearance="@style/HintText">
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bloodtype"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:background="@mipmap/button"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Email"
+                android:imeOptions="actionNext"
+                android:inputType="text"
+                android:textColor="#fff"
+                android:textColorHint="#fff"
+                android:textCursorDrawable="@drawable/color_cursor"
+                android:textSize="13dp" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/username1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/email1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:gravity="start"
+            android:textColorHint="#fff"
+            android:textSize="13dp"
+            app:hintTextAppearance="@style/HintText">
+
+            <EditText
+                android:id="@+id/username"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/email1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:background="@mipmap/button"
+                android:backgroundTintMode="multiply"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Username"
+                android:imeOptions="actionNext"
+                android:inputType="text"
+                android:textColor="#fff"
+                android:textColorHint="#fff"
+                android:textCursorDrawable="@drawable/color_cursor"
+                android:textSize="13dp" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/password1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/username1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:gravity="start"
+            android:textColorHint="#fff"
+            android:textSize="13dp"
+            app:hintTextAppearance="@style/HintText">
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/username"
+
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:background="@mipmap/button"
+                android:backgroundTintMode="multiply"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Password"
+                android:imeOptions="actionNext"
+                android:inputType="textPassword"
+                android:textColor="#fff"
+                android:textColorHint="#fff"
+                android:textCursorDrawable="@drawable/color_cursor"
+                android:textSize="13dp" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/repass1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/password1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:gravity="start"
+            android:textColorHint="#fff"
+            android:textSize="13dp"
+            app:hintTextAppearance="@style/HintText">
+
+            <EditText
+                android:id="@+id/repass"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/password"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:background="@mipmap/button"
+                android:backgroundTintMode="multiply"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Re-type password"
+                android:imeOptions="actionNext"
+                android:inputType="textPassword"
+                android:textColor="#fff"
+                android:textColorHint="#fff"
+                android:textCursorDrawable="@drawable/color_cursor"
+                android:textSize="13dp" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/city1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/repass1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:gravity="start"
+            android:textColorHint="#fff"
+            android:textSize="13dp"
+            app:hintTextAppearance="@style/HintText">
+
+            <EditText
+                android:id="@+id/city"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/password"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:background="@mipmap/button"
+                android:backgroundTintMode="multiply"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Address"
+                android:imeOptions="actionNext"
+                android:inputType="text"
+                android:textColor="#fff"
+                android:textColorHint="#fff"
+                android:textCursorDrawable="@drawable/color_cursor"
+                android:textSize="13dp" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/mobo1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/city1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:gravity="start"
+            android:textColorHint="#fff"
+            android:textSize="13dp"
+            app:hintTextAppearance="@style/HintText">
+
+            <EditText
+                android:id="@+id/mobo"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/password"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:background="@mipmap/button"
+                android:backgroundTintMode="multiply"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Mobile Number"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:textColor="#fff"
+                android:textColorHint="#fff"
+                android:textCursorDrawable="@drawable/color_cursor"
+                android:textSize="13dp" />
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/signup"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/radio"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@mipmap/signbutton1"
+            android:text="SIGN UP"
+            android:textColor="#e1283f"
+            android:textSize="13dp" />
+
+        <RadioGroup
+            android:id="@+id/radio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mobo1"
+            android:layout_centerHorizontal="true"
+
+            android:layout_marginTop="20dp">
+
+            <RadioButton
+                android:id="@+id/radiodon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="#fff"
+                android:checked="true"
+                android:text="Donor"
+                android:textColor="#fff" />
+
+            <RadioButton
+                android:id="@+id/radionon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Not a donor"
+                android:textColor="#fff"
+                android:buttonTint="#fff"/>
+
+        </RadioGroup>
+    </RelativeLayout>
+</ScrollView>
